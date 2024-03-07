@@ -8,4 +8,4 @@ git push
 ng build
 
 @REM update on Developer Server
-git ftp push
+@REM git ftp push
