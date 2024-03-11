@@ -22,7 +22,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: sarah-zimmermann-schmutzler.developerakademie.net/angular-projects/ci_cd_test
+        server: sarah-zimmermann-schmutzler.developerakademie.net/angular-projects/ci_cd_test/
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: dist/ci_cd_angular/
